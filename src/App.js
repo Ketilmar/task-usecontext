@@ -2,7 +2,8 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import { Clicker } from "./components/clicker";
-import { SumPage } from "./pages/sumPage";
+import SumPage from "./pages/sumPage";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
@@ -12,7 +13,10 @@ function App() {
         <p>Task - useContext</p>
       </header>
       <Clicker />
-      <SumPage />
+      {/* <SumPage /> */}
+      {/* <Routes>
+        <Route path="/sumpage" element={<SumPage />} />
+      </Routes> */}
     </div>
   );
 }

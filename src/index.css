@@ -13,6 +13,8 @@ code {
 }
 
 .sum-body {
-  height: 4em;
-  width: 4em;
+  height: 8em;
+  width: 8em;
+  border: 2px solid;
+  border-color: black;
 }
