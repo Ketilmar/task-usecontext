@@ -1,14 +1,11 @@
-import React, { useContext } from "react";
-// import { Clicker } from "../components/clicker";
+import React from "react";
 import { TestContext } from "../components/clicker";
 
 export default function SumPage2() {
-  // Dette er en måte å bruke context på
-  // let value = useContext(TestContext);
+  // let value = useContext(TestContext); // Dette er en måte å bruke context på
   return (
-    <div className="sum-body">
+    <div className="sumpage-2">
       <p>SumPage2</p>
-      {/* <p>{value}</p> */}
       {/* dette er en annen måte å bruke context på */}
       <TestContext.Consumer>
         {/* {(value) => console.log(value)} */}

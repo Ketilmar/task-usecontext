@@ -12,9 +12,30 @@ code {
     monospace;
 }
 
-.sum-body {
+button {
+  margin: 1em;
+}
+
+.sumpage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: 8em;
   width: 8em;
   border: 2px solid;
   border-color: black;
+  background-color: lightblue;
+  margin-left: 40%;
+}
+
+.sumpage-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 8em;
+  width: 8em;
+  border: 2px solid;
+  border-color: black;
+  background-color: rgb(181, 169, 185);
+  margin-left: 40%;
 }
